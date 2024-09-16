@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,14 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nimesh Jha's Projects</title>
     <link rel="stylesheet" href="styles.css">
+    <!-- Google Fonts for stylish typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Projects</h1>
+    <!-- Hero Section for Projects Page -->
+    <header class="hero-projects">
+        <div class="hero-content">
+            <h1>Projects</h1>
+        </div>
     </header>
 
+    <!-- Navigation with hover effects -->
     <nav>
-        <ul>
+        <ul class="nav-list">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Me</a></li>
             <li><a href="experience.html">Experience</a></li>
@@ -22,10 +27,17 @@
         </ul>
     </nav>
 
-    <section>
+    <!-- Project Details Section -->
+    <section class="projects-section">
         <h2>Metric Anomaly Detection System</h2>
-        <p>Developed a system to detect irregular patterns in system metrics...</p>
-        <img src="path_to_image_placeholder.jpg" alt="Project Image">
+        <img src="nimeshjha/images/Gemini_Generated_Image_rn550orn550orn55.jpg" alt="Project Image" class="project-image">
+        <p>Developed a system to detect irregular patterns in system metrics using Sysdig APIs and Python. This project allowed the IaaS Platform Operations team to identify potential system failures early and mitigate risks efficiently.</p>
+
+        <h2>WorkForce360 – Jobs Recommendation</h2>
+        <p>Built a recommendation engine that suggests internal job matches for IBM employees, utilizing machine learning models to analyze employee CVs, skillsets, job history, and ratings.</p>
+
+        <h2>Client360 – NLQ to SQL</h2>
+        <p>Designed and implemented a Natural Language Query (NLQ) interface that translates user queries into SQL commands, simplifying data access and enabling non-technical users to interact with databases.</p>
     </section>
 </body>
 </html>

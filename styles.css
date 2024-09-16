@@ -1,42 +1,334 @@
-
+/* General Styling */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: #333;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    line-height: 1.6;
+    background-color: #f4f4f9;
 }
 
-header {
-    background-color: #3498db;
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Hero Section with Background Image */
+.hero {
+    background-image: url('path_to_hero_background_image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
     color: white;
-    text-align: center;
-    padding: 1rem;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
+.hero-content h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero-content h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+/* Navigation Bar */
+nav {
     background-color: #333;
+    color: white;
+    padding: 10px 0;
     text-align: center;
 }
 
-nav ul li {
-    display: inline;
-    padding: 1rem;
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-nav ul li a {
+.nav-list li {
+    display: inline;
+    margin: 0 20px;
+}
+
+.nav-list a {
     color: white;
     text-decoration: none;
+    font-weight: 600;
 }
 
-section {
-    padding: 2rem;
+.nav-list a:hover {
+    color: #f4f4f9;
+    text-decoration: underline;
+}
+
+/* Welcome Section */
+.welcome-section {
+    background-color: white;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     text-align: center;
 }
 
-img {
-    width: 200px;
+.welcome-section h2 {
+    color: #3498db;
+}
+
+.welcome-section p {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.profile-image {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* General Styling for Experience Page */
+.experience-section {
+    background-color: white;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.experience-section h2 {
+    color: #3498db;
+    margin-top: 30px;
+}
+
+.experience-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.experience-section ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.experience-section ul li {
+    margin-bottom: 10px;
+}
+
+.experience-logo {
+    max-width: 100px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+/* Hero Section for Experience Page */
+.hero-experience {
+    background-image: url('path_to_experience_background_image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.hero-experience h1 {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* General Styling for About Page */
+.about-section {
+    background-color: white;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.about-section h2 {
+    color: #3498db;
+    margin-top: 30px;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.about-section ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.about-section ul li {
+    margin-bottom: 10px;
+}
+
+.profile-image {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Hero Section for About Me Page */
+.hero-about {
+    background-image: url('path_to_about_background_image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.hero-about h1 {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* General Styling for Projects Page */
+.projects-section {
+    background-color: white;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.projects-section h2 {
+    color: #3498db;
+    margin-top: 30px;
+}
+
+.projects-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.project-image {
+    max-width: 100%;
     height: auto;
-    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Hero Section for Projects Page */
+.hero-projects {
+    background-image: url('path_to_projects_background_image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.hero-projects h1 {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin: 0;
+}
+
+/* General Styling for Contact Page */
+.contact-section {
+    background-color: white;
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.contact-section h2 {
+    color: #3498db;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+form {
+    text-align: left;
+}
+
+form label {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form input[type="text"]::placeholder,
+form input[type="email"]::placeholder,
+form textarea::placeholder {
+    color: #999;
+}
+
+.submit-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Hero Section for Contact Page */
+.hero-contact {
+    background-image: url('path_to_contact_background_image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+.hero-contact h1 {
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    margin: 0;
 }
