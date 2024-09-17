@@ -14,12 +14,12 @@ h1, h2 {
 
 /* Hero Section with Background Image */
 .hero {
-    background-image: url('path_to_hero_background_image.jpg');
+    background-image: url('images/Gemini_Generated_Image_pvdp0ipvdp0ipvdp.jpg');
     background-size: cover;
     background-position: center;
     padding: 100px 0;
     text-align: center;
-    color: white;
+    color: rgb(100, 224, 66);
 }
 
 .hero-content h1 {
@@ -139,12 +139,12 @@ footer {
 
 /* Hero Section for Experience Page */
 .hero-experience {
-    background-image: url('path_to_experience_background_image.jpg');
+    background-image: url('images/Gemini_Generated_Image_6jfg2o6jfg2o6jfg.jpg');
     background-size: cover;
     background-position: center;
     padding: 100px 0;
     text-align: center;
-    color: white;
+    color: rgb(67, 144, 86);
 }
 
 .hero-experience h1 {
@@ -193,7 +193,7 @@ footer {
 
 /* Hero Section for About Me Page */
 .hero-about {
-    background-image: url('path_to_about_background_image.jpg');
+    background-image: url('images/Gemini_Generated_Image_4coobz4coobz4coo.jpg');
     background-size: cover;
     background-position: center;
     padding: 100px 0;
@@ -238,7 +238,7 @@ footer {
 
 /* Hero Section for Projects Page */
 .hero-projects {
-    background-image: url('path_to_projects_background_image.jpg');
+    background-image: url('images/Gemini_Generated_Image_rn550orn550orn55.jpg');
     background-size: cover;
     background-position: center;
     padding: 100px 0;
@@ -318,7 +318,7 @@ form textarea::placeholder {
 
 /* Hero Section for Contact Page */
 .hero-contact {
-    background-image: url('path_to_contact_background_image.jpg');
+    background-image: url('images/Gemini_Generated_Image_rn550mrn550mrn55.jpg');
     background-size: cover;
     background-position: center;
     padding: 100px 0;
